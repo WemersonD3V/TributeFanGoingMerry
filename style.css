@@ -290,11 +290,17 @@ section {
         align-self: center;
         margin-top: 16px;
     }
+    .curiosity_imgGroup figure figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
 
     .curiosity_imgGroup figure img,
     .tripulationGoing figure img {
-        width: 500px;
+        width: 400px;
         height: 200px;
 
     }
