@@ -41,13 +41,13 @@ buttonImage.addEventListener('click', () => {
             captionimg.innerHTML = 'Primeira Apariçao no Anime.';
             break;
         case 2:
-            captionimg.innerHTML = 'O  <strong>Merry</strong> em seus ultimos dias. ';
+            captionimg.innerHTML = 'O  <strong> Merry</strong> em seus ultimos dias. ';
             break;
         case 3:
-            captionimg.innerHTML = 'O  em Tamanho Real.';
+            captionimg.innerHTML = 'O <strong> Merry </strong> em Tamanho Real.';
             break;
         case 4:
-            captionimg.innerHTML = 'Estrutura do <strong>Merry</strong>.';
+            captionimg.innerHTML = 'Estrutura do <strong> Merry</strong>.';
             break;
 
     }
