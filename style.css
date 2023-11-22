@@ -296,6 +296,10 @@ section {
         align-items: center;
         flex-wrap: wrap;
     }
+    .curiosity_imgGroup figure figcaption span{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
 
     .curiosity_imgGroup figure img,
