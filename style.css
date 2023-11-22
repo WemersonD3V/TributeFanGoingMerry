@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Rubik', sans-serif;
 
+
 }
 
 html {
@@ -18,9 +19,9 @@ body {
     background-repeat: none;
     background-size: cover;
     display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 
 
@@ -60,7 +61,8 @@ header h1 {
     color: #fff;
     margin-left: 5px;
 }
-.menu_hamb{
+
+.menu_hamb {
     display: none;
 }
 
@@ -87,7 +89,7 @@ nav ul li a:hover {
 
 section {
     width: 80vw;
-   
+
     display: flex;
     flex-direction: column;
 
@@ -203,55 +205,64 @@ footer {
     color: #fff;
     background-color: #000;
     box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.373);
-    width:100vw
+    width: 100vw
 }
 
 footer a {
     color: #f00;
     text-decoration: none;
 }
-.menu_hamb{
-   display: none;
-   flex-direction: column;
-   width: 40px;
-   height: 40px;
+
+.menu_hamb {
+    display: none;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
 
 
 
 }
-.menull{
+
+.menull {
     margin: 3px;
     width: 40px;
     height: 3px;
     background-color: #fff;
 }
 
-section{
-   padding: 60px;
+section {
+    padding: 60px;
 }
 
 
 @media (max-width:768px) {
-    
-    header{
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
         justify-content: space-around;
     }
-    header .logo img{
+
+    header .logo img {
         width: 50px;
 
     }
+
     .logo img:hover {
         width: 54px;
     }
-    header h1{
+
+    header h1 {
         font-size: 20px;
     }
+
     nav ul {
         height: 230px;
         margin-top: 30px;
-        padding: 0; 
+        padding: 0;
         flex-direction: column;
-        display: flex;
+        display: none;
         position: absolute;
         bottom: 100;
         left: 0;
@@ -259,22 +270,32 @@ section{
         background-color: #020202;
     }
 
-    .menu_hamb{
+    .menu_hamb {
         display: flex;
         cursor: pointer;
 
 
     }
-    
-    
-    section{
-       padding: 60px;
+
+
+    section {
+        padding: 60px;
+    }
+
+    .curiosity_imgGroup figure {
+        flex-direction: column;
+    }
+
+    .curiosity_imgGroup button {
+        align-self: center;
+        margin-top: 16px;
     }
 
 
-    .curiosity_imgGroup figure img,.tripulationGoing figure img  {
+    .curiosity_imgGroup figure img,
+    .tripulationGoing figure img {
         width: 500px;
         height: 200px;
-        
+
     }
 }
