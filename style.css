@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    background-image: url('imagens/backGroundAll.jpg');
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    cursor: grabbing;
+    transition: ease-in-out 0.2s;
+}
+
+.logo img:hover {
+    width: 83px;
+}
+
+header h1 {
+    color: #fff;
+    margin-left: 5px;
+}
+.menu_hamb{
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+
+
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+section {
+    width: 80vw;
+   
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.373);
+
+
+
+}
+
+section .curiosity_imgGroup {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.curiosity_imgGroup figure {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.curiosity_imgGroup figure img {
+    margin-bottom: 50px;
+    width: 900px;
+    height: 400px;
+    box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.373);
+}
+
+.curiosity_imgGroup button {
+    background-color: #000;
+    color: #fff;
+    height: 30px;
+    width: 70px;
+    align-self: flex-end;
+    margin-left: 10px;
+
+    font-size: 16px;
+}
+
+.historyGoing,
+.tripulationGoing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+
+.historyGoing p {
+    margin-bottom: 20px;
+    font-size: 20px;
+
+
+
+}
+
+.tripulationGoing figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tripulationGoing figure img {
+    margin-bottom: 20px;
+    width: 900px;
+    height: 400px;
+    box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.373);
+}
+
+.statistics_Extra ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.statistics_Extra h2 {
+    text-align: left;
+}
+
+.moreAbout {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000;
+    text-align: center;
+    color: white
+}
+
+.moreAbout h2 {
+    margin-bottom: 18px;
+}
+
+.moreAbout a {
+    color: #f00;
+    font-size: 18px;
+
+
+}
+
+footer {
+    padding: 20px 0px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.373);
+    width:100vw
+}
+
+footer a {
+    color: #f00;
+    text-decoration: none;
+}
+.menu_hamb{
+   display: none;
+   flex-direction: column;
+   width: 40px;
+   height: 40px;
+
+
+
+}
+.menull{
+    margin: 3px;
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+}
+
+section{
+   padding: 60px;
+}
+
+
+@media (max-width:768px) {
+    
+    header{
+        justify-content: space-around;
+    }
+    header .logo img{
+        width: 50px;
+
+    }
+    .logo img:hover {
+        width: 54px;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    nav ul {
+        height: 230px;
+        margin-top: 30px;
+        padding: 0; 
+        flex-direction: column;
+        display: flex;
+        position: absolute;
+        bottom: 100;
+        left: 0;
+        width: 100%;
+        background-color: #020202;
+    }
+
+    .menu_hamb{
+        display: flex;
+        cursor: pointer;
+
+
+    }
+    
+    
+    section{
+       padding: 60px;
+    }
+
+
+    .curiosity_imgGroup figure img,.tripulationGoing figure img  {
+        width: 500px;
+        height: 200px;
+        
+    }
+}
